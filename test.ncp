@@ -1,0 +1,48 @@
+// --- NagataCho++ 統合テスト法案 ---
+
+// 1. 小泉構文のテスト
+import Koizumi
+
+Sexy Touben plastic = "今のままではいけないと思います。"
+KishaKaiken(plastic)
+
+// ★ここで辞任
+Jinin Koizumi
+
+
+// 2. 閣議決定（定数）と善処
+Yosan isSafe = KakugiKettei
+Zensho (isSafe) -> KishaKaiken("安全性は確認されました（閣議決定）")
+
+
+// 3. 蓮舫モード（事業仕分け）
+#pragma Renho
+
+Yosan rank = 1
+KishaKaiken("世界スパコンランキング、目標は " + rank + " 位です")
+
+
+// 4. 先送りループ
+Yosan tax = 8
+KishaKaiken("社会保障のために税率を上げます。")
+
+Sakiokuri (tax < 11) {
+    KishaKaiken("検討中... 現在の税率: " + tax + "%")
+    tax++
+}
+
+
+// 5. パブリックコメント（★ここに復活させました！）
+// 実行すると入力待ちになります。20%の確率で無視されます。
+KishaKaiken("国民の皆様、ご意見をどうぞ（Enterキーで入力）")
+Touben voice = PublicComment()
+KishaKaiken("受け取った意見: " + voice)
+
+
+// 6. 安倍構文
+KishaKaiken("野党が騒がしいので、少し落ち着きます。")
+SoExcited
+
+
+// 7. 野々村例外（強制終了）
+RyutaroCatch
